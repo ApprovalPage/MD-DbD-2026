@@ -675,13 +675,6 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.shape_2).wait(253));
 
-	// BKGD_DLime
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#D8E659").s().p("A3bTiMAAAgnDMAu3AAAMAAAAnDg");
-	this.shape_3.setTransform(150,125);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape_3).wait(253));
-
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
